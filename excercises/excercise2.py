@@ -11,3 +11,12 @@ print(f" edad --> {type(edad).__name__}")
 print(f" peso --> {type(peso).__name__}")
 print(f" nombre --> {type(nombre).__name__}")
 print(f" mayor_edad --> {type(mayor_edad).__name__}")
+
+# Escribe un programa que concatene nombre y apellido almacenados en variables
+apellido = "Gomez Rojas"
+nombre = "Kevin Manuel"
+if nombre[-1] != " ": # verificando si el nombre termina con espacio
+    full_name = nombre + " " + apellido
+else: # concatenar sin espacio porque el nombre ya lo trae
+    full_name = nombre + apellido
+
