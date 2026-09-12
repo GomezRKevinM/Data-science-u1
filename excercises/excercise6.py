@@ -19,3 +19,22 @@ def iterateAListAPrintElementsToUpperCase(listName: list[str] = ['Kevin', 'Gary'
         raise TypeError("los elementos de la lista deben ser cadenas de texto")
 
     for name in listName: print(name.upper()) # recorrer e imprimir cada elementro de la lista en mayuscul
+
+# Crea un pequeño programa que pida al usuario su edad y muestre un mensaje según su rango etario (niño, joven, adulto)
+def askForYearOldAndShowEtarioRangeMessage():
+    edad = 0
+    while True: # bucle para repetir la pregunta hasta obtener una respuesta valida
+        answer = input("Digita tu edad: ")  # obtener la edad por consola
+        if answer.isnumeric():
+            edad = int(answer) # asignacion de valor casteado a entero
+            break # al ser un valor valido, cerramos el while
+        else :
+            print("Argumento invalido, intente otra vez") # imprimismo el mensaje de error y se repite el ciclo
+
+    match edad: # creando campos de coincidencia
+        case n if n >= 30: # cuando la edad es mayor o igual a 30
+            print("Eres un adulto")
+        case n if n >= 18: # cuando la edad es mayor o igual a 18
+            print("Eres un joven")
+        case _: # cualquier edad menor de 18
+            print("Eres un niño")
