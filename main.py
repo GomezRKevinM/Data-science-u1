@@ -1,1 +1,5 @@
-## In the future this file is going to use for run the excersices
+import excercise1 as e1
+
+e1.createAListWichRepresentStructureData() # Lista de edades de estudiantes
+e1.createAVariableTypeText() # Comentario del usuario
+e1.createADictionaryWithStudentStructuredInformation() # Dicionario con información del estudiante
