@@ -4,11 +4,11 @@ _Unidad 1_
 ## 🧩 Ejercicios
 ### 🔹1: Datos estructurados vs. no estructurados
 1. Crea una lista que represente datos estructurados (por ejemplo: edades de
-estudiantes) y muestra su tipo de dato.
+estudiantes) y muestra su tipo de dato. [Ver](https://github.com/GomezRKevinM/Data-science-u1/blob/main/excercises/excercise1.py#L2-L7)
 2. Crea una variable tipo texto que represente un comentario libre de un usuario
-(dato no estructurado) y cuenta cuántas palabras tiene.
+(dato no estructurado) y cuenta cuántas palabras tiene. [Ver](https://github.com/GomezRKevinM/Data-science-u1/blob/main/excercises/excercise1.py#L10-L17)
 3. Crea un diccionario con información estructurada de un estudiante (nombre,
-edad, carrera) e imprime cada valor por separado.
+edad, carrera) e imprime cada valor por separado. [Ver](https://github.com/GomezRKevinM/Data-science-u1/blob/main/excercises/excercise1.py#L21-L44)
 
 ### 🔹2: Tipos de variables y sintaxis básica
 1. Declara variables de tipo entero, flotante, cadena y booleano. Imprime el tipo de
