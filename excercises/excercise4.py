@@ -10,3 +10,11 @@ print(fruit_list) #imprimimos para mostrar la fruta agregada
 ciudades = "Cartagena", "Medellin", "Pereira" # tupla con empaquetado implicito - usar () para empaquetado explicito
 for city in ciudades: # ciclo para recorrer la tupla
     print(city) # imprimir el item presente en la iteracion del ciclo
+
+# Crea un diccionario con productos y precios y muestra solo las claves
+productos = {
+    "Teclado" :  180000,
+    "Honor 400 smart": 1300000,
+    "Manzana": 2500
+}
+print(f"keys of productos: {productos.keys()}")
