@@ -6,3 +6,7 @@ print(f"fruta #3 {fruit_list[-3]}") # podemos uasr 2 o -3 para representar el 3e
 fruit_list.append("Fresa")
 print(fruit_list) #imprimimos para mostrar la fruta agregada
 
+# Crea una tupla con 3 ciudades y recórrela con un ciclo
+ciudades = "Cartagena", "Medellin", "Pereira" # tupla con empaquetado implicito - usar () para empaquetado explicito
+for city in ciudades: # ciclo para recorrer la tupla
+    print(city) # imprimir el item presente en la iteracion del ciclo
