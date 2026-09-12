@@ -11,7 +11,7 @@ def createAVariableTypeText(comment: str= None):
     if comment is None:
         comment = "Estaba registrando mi información en el formulario de crear estudiante y el campo de edad tiene un error, si el valor no tiene 2 digitos no deja enviar los datos"
     elif not isinstance(comment, str):
-        TypeError("El parámetro 'comment' debe ser una cadena de texto")
+        raise TypeError("El parámetro 'comment' debe ser una cadena de texto")
     words_in_comentario = len(comment.split(" ")) # separando palabras y contando las
     print(f"comentario: {comment}")
     print(f"la variable comentario tiene un total de {words_in_comentario} palabras") # imprimiendo el total de palabras
@@ -22,17 +22,17 @@ def createADictionaryWithStudentStructuredInformation(nombre: str = None, edad: 
     if nombre is None:
         nombre = "Kevin Manuel Gomez Rojas"
     elif not isinstance(nombre, str):
-        TypeError("El parámetro 'nombre' debe ser una cadena de texto")
+        raise TypeError("El parámetro 'nombre' debe ser una cadena de texto")
 
     if edad is None:
         edad = 24
     elif not isinstance(edad, int):
-        TypeError("El parámetro 'edad' debe ser un numero entero")
+        raise TypeError("El parámetro 'edad' debe ser un numero entero")
 
     if carrera is None:
         carrera = "Ing de Software"
     elif not isinstance(carrera, str):
-        TypeError("El parámetro 'carrera' debe ser una cadena de texto")
+        raise TypeError("El parámetro 'carrera' debe ser una cadena de texto")
 
     estudiante = {
         "nombre": nombre,
