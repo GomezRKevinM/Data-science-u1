@@ -9,3 +9,12 @@ print(f"la variable comentario tiene un total de {words_in_comentario} palabras"
 
 
 # 3. Crea un diccionario con información estructurada de un estudiante (nombre, edad, carrera) e imprime cada valor por separado.
+estudiante = {
+    "nombre": "Kevin Manuel Gomez Rojas",
+    "edad": 24,
+    "carrera": "Ing de Software"
+}
+
+print(f"Nombre del estudiante: {estudiante['nombre']}")
+print(f"Edad del estudiante: {estudiante['edad']}")
+print(f"Carrera del estudiante: {estudiante['carrera']}")
